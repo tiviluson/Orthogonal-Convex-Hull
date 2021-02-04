@@ -239,14 +239,17 @@ def findOrthogonalConvexHull(points):
         elif points[i][0] >= qq4[0] and points[i][1] >= q4[1]:
             set4.append(points[i])
      '''       
+   
+    
+   
     for p in points:
         if p[0] <= q1[0] and p[1] >= qq1[1]:
             set1.append(p)
-        elif p[0] <= qq2[0] and p[1] <= q2[1]:
+        if p[0] <= qq2[0] and p[1] <= q2[1]:
             set2.append(p)
-        elif p[0] >= q3[0] and p[1] <= qq3[1]:
+        if p[0] >= q3[0] and p[1] <= qq3[1]:
             set3.append(p)
-        elif p[0] >= qq4[0] and p[1] >= q4[1]:
+        if p[0] >= qq4[0] and p[1] >= q4[1]:
             set4.append(p) 
     
     #set1 = [a for a in points if inside(a, q1, qq1)]
