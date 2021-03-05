@@ -21,13 +21,13 @@ def find_o_hull1(set1, q1, qq1):
     if len(set1) == 0:
         #po = ortho(pf, pt, xInc, yInc) # SUPPORT POINTS
         return []
-    
+
     def add(p):
         return (p[0] - q1[0])*(p[0] - q1[0]) + (p[1] - qq1[1])*(p[1] - qq1[1])
-    
-    sort_set1_Dist = sorted(set1, key = add, reverse=True) 
+
+    sort_set1_Dist = sorted(set1, key = add, reverse=True)
     new_point1 = sort_set1_Dist[0]
-    
+
     new_set11 = []
     new_set12 = []
     for p in set1:
@@ -51,11 +51,11 @@ def find_o_hull2(set2, q2, qq2):
     def add(p):
         return (p[0] - qq2[0])*(p[0] - qq2[0]) + (p[1] - q2[1])*(p[1] - q2[1])
     '''
-    Sắp xếp theo thứ tự giảm dần các khoảng cách từ p với v. New point là điểm đầu tiên trong dãy.    
+    Sắp xếp theo thứ tự giảm dần các khoảng cách từ p với v. New point là điểm đầu tiên trong dãy.
     '''
-    sort_set2_Dist = sorted(set2, key = add, reverse=True) 
+    sort_set2_Dist = sorted(set2, key = add, reverse=True)
     new_point2 = sort_set2_Dist[0]
-    
+
     '''
         The set of points on the right of L
     '''
@@ -66,7 +66,7 @@ def find_o_hull2(set2, q2, qq2):
             new_set21.append(p)
         elif p[1] < new_point2[1]:
             new_set22.append(p)
-    
+
     #new_set1 = [p for p in set2 if inside(p, q2, new_point)]
     #new_set2 = [p for p in set2 if inside(p, new_point, qq2)]
     '''
@@ -79,19 +79,19 @@ def find_o_hull3(set3, q3, qq3):
     if len(set3) == 0:
         #po = ortho(pf, pt, xInc, yInc) # SUPPORT POINTS
         return []
- 
-    
+
+
     '''
     Tính bình phương khoảng cách từ điểm p tới đỉnh v(qq2[0], q2[1])
     '''
     def add(p):
         return (p[0] - q3[0])*(p[0] - q3[0]) + (p[1] - qq3[1])*(p[1] - qq3[1])
     '''
-    Sắp xếp theo thứ tự giảm dần các khoảng cách từ p với v. New point là điểm đầu tiên trong dãy.    
+    Sắp xếp theo thứ tự giảm dần các khoảng cách từ p với v. New point là điểm đầu tiên trong dãy.
     '''
-    sort_set3_Dist = sorted(set3, key = add, reverse=True) 
+    sort_set3_Dist = sorted(set3, key = add, reverse=True)
     new_point3 = sort_set3_Dist[0]
-    
+
     '''
         The set of points on the right of L
     '''
@@ -116,18 +116,18 @@ def find_o_hull4(set4, q4, qq4):
         #po = ortho(pf, pt, xInc, yInc) # SUPPORT POINTS
         return []
 
-   
+
     '''
     Tính bình phương khoảng cách từ điểm p tới đỉnh v(qq2[0], q2[1])
     '''
     def add(p):
         return (p[0] - qq4[0])*(p[0] - qq4[0]) + (p[1] - q4[1])*(p[1] - q4[1])
     '''
-    Sắp xếp theo thứ tự giảm dần các khoảng cách từ p với v. New point là điểm đầu tiên trong dãy.    
+    Sắp xếp theo thứ tự giảm dần các khoảng cách từ p với v. New point là điểm đầu tiên trong dãy.
     '''
-    sort_set4_Dist = sorted(set4, key = add, reverse=True) 
+    sort_set4_Dist = sorted(set4, key = add, reverse=True)
     new_point4 = sort_set4_Dist[0]
-    
+
     new_set41 = []
     new_set42 = []
     for p in set4:
@@ -144,7 +144,7 @@ def find_o_hull4(set4, q4, qq4):
         Return two new points in order
     '''
     return find_o_hull4(new_set41, q4, new_point4) + [new_point4] + find_o_hull4(new_set42, new_point4, qq4)
- 
+
  #####################################################
 
 def findOrthogonalConvexHull(points):
@@ -154,12 +154,12 @@ def findOrthogonalConvexHull(points):
     minY = points[0][1]
     maxX = points[0][0]
     minX = points[0][0]
-    
+
     leftPoints = []
     rightPoints = []
     topPoints = []
     bottomPoints = []
-    
+
     for point in points:
         if point[0] < minX: minX = point[0] #leftmost point
         if point[0] > maxX: maxX = point[0] #rightmost point
@@ -238,10 +238,10 @@ def findOrthogonalConvexHull(points):
             set3.append(points[i])
         elif points[i][0] >= qq4[0] and points[i][1] >= q4[1]:
             set4.append(points[i])
-     '''       
-   
-    
-   
+     '''
+
+
+
     for p in points:
         if p[0] <= q1[0] and p[1] >= qq1[1]:
             set1.append(p)
@@ -250,8 +250,8 @@ def findOrthogonalConvexHull(points):
         if p[0] >= q3[0] and p[1] <= qq3[1]:
             set3.append(p)
         if p[0] >= qq4[0] and p[1] >= q4[1]:
-            set4.append(p) 
-    
+            set4.append(p)
+
     #set1 = [a for a in points if inside(a, q1, qq1)]
     #set2 = [a for a in points if inside(a, q2, qq2)]
     #set3 = [a for a in points if inside(a, q3, qq3)]
