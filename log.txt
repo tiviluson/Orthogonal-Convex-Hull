@@ -1,57 +1,352 @@
-0.csv
-31.4 ms ± 2.57 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-13.4 ms ± 329 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-1.csv
-27.1 ms ± 1.43 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-12.8 ms ± 364 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-2.csv
-26.5 ms ± 1.55 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-10.2 ms ± 200 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-3.csv
-27.4 ms ± 909 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-12.5 ms ± 708 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-4.csv
-unknown
-5.csv
-unknown
-6.csv
-unknown
-7.csv
-25.6 ms ± 1.55 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-10 ms ± 894 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-8.csv
-26.8 ms ± 1.59 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-8.84 ms ± 210 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-9.csv
-31.5 ms ± 2 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-9.31 ms ± 355 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-10.csv
-27.5 ms ± 1.54 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-11 ms ± 455 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-11.csv
-32 ms ± 1.76 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-11.6 ms ± 821 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-12.csv
-25 ms ± 1.06 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-13.1 ms ± 1.19 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-13.csv
-33.7 ms ± 2.1 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-13.4 ms ± 1.5 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-14.csv
-31.1 ms ± 2.56 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-12.3 ms ± 422 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-15.csv
-34.1 ms ± 4.85 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-13.2 ms ± 802 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-16.csv
-28.3 ms ± 1.85 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-11.1 ms ± 128 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-17.csv
-30.6 ms ± 1.97 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-11.2 ms ± 384 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-18.csv
-31 ms ± 2.85 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-9.11 ms ± 412 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
-19.csv
-31.6 ms ± 2.39 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
-10.6 ms ± 434 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+Test: ./Horizontal/1.csv
+Number of loops run:50
+Time with NO Convex Hull:76.5901517868042[ms]
+Figure size (x,y):(1074.0, 298.0)
+Step T_l:30
+Ignored:12
+Accepted:25
+Length Measured:1284.3849167987914
+Width Measured:151.3072839175772
+-----------------
+Time with Convex Hull : 43.302621841430664[ms]
+Time with NO Convex Hull:43.302621841430664[ms]
+Figure size (x,y):(1074.0, 298.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1096.2992010278424
+Width Measured:226.7804370518329
+->Error of Length:-14.6%
+->Error of Width:49.9%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/2.csv
+Number of loops run:50
+Time with NO Convex Hull:69.5078182220459[ms]
+Figure size (x,y):(1079.0, 283.0)
+Step T_l:30
+Ignored:10
+Accepted:27
+Length Measured:1094.9730219600497
+Width Measured:167.717960010626
+-----------------
+Time with Convex Hull : 26.364898681640625[ms]
+Time with NO Convex Hull:26.364898681640625[ms]
+Figure size (x,y):(1079.0, 283.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1066.9371201481263
+Width Measured:246.10810233512018
+->Error of Length:-2.6%
+->Error of Width:46.7%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/3.csv
+Number of loops run:50
+Time with NO Convex Hull:77.21374988555908[ms]
+Figure size (x,y):(1076.0, 292.0)
+Step T_l:30
+Ignored:12
+Accepted:25
+Length Measured:1268.5190350426374
+Width Measured:141.23675027045235
+-----------------
+Time with Convex Hull : 34.13434982299805[ms]
+Time with NO Convex Hull:34.13434982299805[ms]
+Figure size (x,y):(1076.0, 292.0)
+Step T_l:30
+Ignored:0
+Accepted:37
+Length Measured:1121.880653261312
+Width Measured:216.37722850248673
+->Error of Length:-11.6%
+->Error of Width:53.2%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/7.csv
+Number of loops run:50
+Time with NO Convex Hull:68.9203691482544[ms]
+Figure size (x,y):(1078.0, 301.0)
+Step T_l:30
+Ignored:11
+Accepted:26
+Length Measured:1146.449786256399
+Width Measured:167.86823914371942
+-----------------
+Time with Convex Hull : 22.567076683044434[ms]
+Time with NO Convex Hull:22.567076683044434[ms]
+Figure size (x,y):(1078.0, 301.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1112.2937661154042
+Width Measured:244.61013094482345
+->Error of Length:-3.0%
+->Error of Width:45.7%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/8.csv
+Number of loops run:50
+Time with NO Convex Hull:80.56221961975098[ms]
+Figure size (x,y):(1079.0, 279.0)
+Step T_l:30
+Ignored:7
+Accepted:30
+Length Measured:1229.4063837256895
+Width Measured:165.70829968726073
+-----------------
+Time with Convex Hull : 24.13303852081299[ms]
+Time with NO Convex Hull:24.13303852081299[ms]
+Figure size (x,y):(1079.0, 279.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1096.838421283642
+Width Measured:239.37352073101107
+->Error of Length:-10.8%
+->Error of Width:44.5%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/9.csv
+Number of loops run:50
+Time with NO Convex Hull:90.91177463531494[ms]
+Figure size (x,y):(1077.0, 306.0)
+Step T_l:30
+Ignored:7
+Accepted:30
+Length Measured:1263.3709064621098
+Width Measured:157.0798172620873
+-----------------
+Time with Convex Hull : 31.116156578063965[ms]
+Time with NO Convex Hull:31.116156578063965[ms]
+Figure size (x,y):(1077.0, 306.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1079.2268007599007
+Width Measured:256.5925325266414
+->Error of Length:-14.6%
+->Error of Width:63.4%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/10.csv
+Number of loops run:50
+Time with NO Convex Hull:100.08613586425781[ms]
+Figure size (x,y):(1070.0, 252.0)
+Step T_l:30
+Ignored:10
+Accepted:27
+Length Measured:1025.513852152989
+Width Measured:173.89837013441627
+-----------------
+Time with Convex Hull : 27.43621826171875[ms]
+Time with NO Convex Hull:27.43621826171875[ms]
+Figure size (x,y):(1070.0, 252.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1073.735419779974
+Width Measured:224.35311747637897
+->Error of Length:4.7%
+->Error of Width:29.0%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/11.csv
+Number of loops run:50
+Time with NO Convex Hull:105.7451581954956[ms]
+Figure size (x,y):(1076.0, 271.0)
+Step T_l:30
+Ignored:6
+Accepted:31
+Length Measured:1231.728453069861
+Width Measured:159.7272957506564
+-----------------
+Time with Convex Hull : 34.485955238342285[ms]
+Time with NO Convex Hull:34.485955238342285[ms]
+Figure size (x,y):(1076.0, 271.0)
+Step T_l:30
+Ignored:0
+Accepted:37
+Length Measured:1131.1556901389215
+Width Measured:234.45631224802133
+->Error of Length:-8.2%
+->Error of Width:46.8%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/12.csv
+Number of loops run:50
+Time with NO Convex Hull:71.48547649383545[ms]
+Figure size (x,y):(1074.0, 288.0)
+Step T_l:30
+Ignored:14
+Accepted:23
+Length Measured:1136.0436020588575
+Width Measured:157.8025500331293
+-----------------
+Time with Convex Hull : 32.438578605651855[ms]
+Time with NO Convex Hull:32.438578605651855[ms]
+Figure size (x,y):(1074.0, 288.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1104.7469067369166
+Width Measured:226.49049592542585
+->Error of Length:-2.8%
+->Error of Width:43.5%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/13.csv
+Number of loops run:50
+Time with NO Convex Hull:85.47142505645752[ms]
+Figure size (x,y):(1078.0, 290.0)
+Step T_l:30
+Ignored:8
+Accepted:29
+Length Measured:1232.823454730356
+Width Measured:152.37340272555485
+-----------------
+Time with Convex Hull : 37.895002365112305[ms]
+Time with NO Convex Hull:37.895002365112305[ms]
+Figure size (x,y):(1078.0, 290.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1127.340202484147
+Width Measured:238.2755009259422
+->Error of Length:-8.6%
+->Error of Width:56.4%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/14.csv
+Number of loops run:50
+Time with NO Convex Hull:91.19307041168213[ms]
+Figure size (x,y):(1074.0, 276.0)
+Step T_l:30
+Ignored:5
+Accepted:32
+Length Measured:1248.3369527676705
+Width Measured:162.0855912593603
+-----------------
+Time with Convex Hull : 34.739437103271484[ms]
+Time with NO Convex Hull:34.739437103271484[ms]
+Figure size (x,y):(1074.0, 276.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1098.1153416881275
+Width Measured:219.606366037291
+->Error of Length:-12.0%
+->Error of Width:35.5%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/15.csv
+Number of loops run:50
+Time with NO Convex Hull:101.9036054611206[ms]
+Figure size (x,y):(1072.0, 264.0)
+Step T_l:30
+Ignored:5
+Accepted:32
+Length Measured:1218.843085808314
+Width Measured:159.41683956605232
+-----------------
+Time with Convex Hull : 39.883766174316406[ms]
+Time with NO Convex Hull:39.883766174316406[ms]
+Figure size (x,y):(1072.0, 264.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1066.0374320065675
+Width Measured:209.79913082304023
+->Error of Length:-12.5%
+->Error of Width:31.6%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/16.csv
+Number of loops run:50
+Time with NO Convex Hull:93.87716770172119[ms]
+Figure size (x,y):(1078.0, 254.0)
+Step T_l:30
+Ignored:9
+Accepted:28
+Length Measured:1210.054797871205
+Width Measured:157.4769039620605
+-----------------
+Time with Convex Hull : 30.121746063232422[ms]
+Time with NO Convex Hull:30.121746063232422[ms]
+Figure size (x,y):(1078.0, 254.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1067.0101660064324
+Width Measured:214.81726545019848
+->Error of Length:-11.8%
+->Error of Width:36.4%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/17.csv
+Number of loops run:50
+Time with NO Convex Hull:90.5837631225586[ms]
+Figure size (x,y):(1076.0, 281.0)
+Step T_l:30
+Ignored:7
+Accepted:30
+Length Measured:1155.8905853805707
+Width Measured:172.4723828861571
+-----------------
+Time with Convex Hull : 28.031063079833984[ms]
+Time with NO Convex Hull:28.031063079833984[ms]
+Figure size (x,y):(1076.0, 281.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1077.8673599323547
+Width Measured:231.77131467809284
+->Error of Length:-6.8%
+->Error of Width:34.4%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/18.csv
+Number of loops run:50
+Time with NO Convex Hull:118.6431360244751[ms]
+Figure size (x,y):(1076.0, 263.0)
+Step T_l:30
+Ignored:9
+Accepted:28
+Length Measured:1098.2200705181372
+Width Measured:146.63051617577875
+-----------------
+Time with Convex Hull : 25.508389472961426[ms]
+Time with NO Convex Hull:25.508389472961426[ms]
+Figure size (x,y):(1076.0, 263.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1075.6967065551437
+Width Measured:227.43363363671972
+->Error of Length:-2.1%
+->Error of Width:55.1%
+
+ +++++++++++++++++++++++++++++++
+Test: ./Horizontal/19.csv
+Number of loops run:50
+Time with NO Convex Hull:103.48073482513428[ms]
+Figure size (x,y):(1079.0, 278.0)
+Step T_l:30
+Ignored:8
+Accepted:29
+Length Measured:1298.56643825023
+Width Measured:138.20221305871138
+-----------------
+Time with Convex Hull : 38.593502044677734[ms]
+Time with NO Convex Hull:38.593502044677734[ms]
+Figure size (x,y):(1079.0, 278.0)
+Step T_l:30
+Ignored:1
+Accepted:36
+Length Measured:1073.6290434175257
+Width Measured:235.00751747852235
+->Error of Length:-17.3%
+->Error of Width:70.0%
+
+ +++++++++++++++++++++++++++++++
