@@ -1,0 +1,57 @@
+0.csv
+31.4 ms ± 2.57 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+13.4 ms ± 329 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+1.csv
+27.1 ms ± 1.43 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+12.8 ms ± 364 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+2.csv
+26.5 ms ± 1.55 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+10.2 ms ± 200 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+3.csv
+27.4 ms ± 909 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+12.5 ms ± 708 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+4.csv
+unknown
+5.csv
+unknown
+6.csv
+unknown
+7.csv
+25.6 ms ± 1.55 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+10 ms ± 894 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+8.csv
+26.8 ms ± 1.59 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+8.84 ms ± 210 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+9.csv
+31.5 ms ± 2 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+9.31 ms ± 355 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+10.csv
+27.5 ms ± 1.54 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+11 ms ± 455 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+11.csv
+32 ms ± 1.76 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+11.6 ms ± 821 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+12.csv
+25 ms ± 1.06 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+13.1 ms ± 1.19 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+13.csv
+33.7 ms ± 2.1 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+13.4 ms ± 1.5 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+14.csv
+31.1 ms ± 2.56 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+12.3 ms ± 422 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+15.csv
+34.1 ms ± 4.85 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+13.2 ms ± 802 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+16.csv
+28.3 ms ± 1.85 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+11.1 ms ± 128 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+17.csv
+30.6 ms ± 1.97 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+11.2 ms ± 384 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+18.csv
+31 ms ± 2.85 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+9.11 ms ± 412 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
+19.csv
+31.6 ms ± 2.39 ms per loop (mean ± std. dev. of 7 runs, 20 loops each)
+10.6 ms ± 434 µs per loop (mean ± std. dev. of 7 runs, 20 loops each)
